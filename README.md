@@ -17,6 +17,16 @@ This project demonstrates the implementation of Google authentication with Djang
 - `project/` - Main Django configuration
 - `templates/` - HTML templates for the user interface
 
+## Template Customization
+
+The base template of Django Allauth has been overridden to customize the appearance of the authentication interface.
+
+**Override Structure:**
+- Creation of the folder `templates/allauth/layouts/`
+- Addition of the custom `base.html` file
+
+This approach allows for modifying the appearance of authentication pages (login, signup, etc.) while retaining the full functionality of Django Allauth. The custom template automatically replaces the default base template of the package.
+
 ## Google Authentication
 
 This project uses Django Allauth to manage Google OAuth2 authentication, allowing users to log in with their Google account.
