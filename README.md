@@ -20,3 +20,7 @@ Ce projet démontre l'implémentation de l'authentification Google avec Django A
 ## Authentification Google
 
 Le projet utilise Django Allauth pour gérer l'authentification Google OAuth2, permettant aux utilisateurs de se connecter avec leur compte Google.
+
+## Authentification Github
+
+Le projet utilise Django Allauth pour gérer l'authentification Github, permettant aux utilisateurs de se connecter avec leur compte Github.
