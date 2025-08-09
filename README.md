@@ -1,26 +1,26 @@
 # Django Allauth Sandbox
 
-Un projet sandbox pour expérimenter avec Django Allauth et l'authentification sociale.
+This is a sandbox project to experiment with Django Allauth and social authentication.
 
-## À propos
+## About
 
-Ce projet démontre l'implémentation de l'authentification Google avec Django Allauth. Il s'agit d'un environnement de test pour explorer les fonctionnalités d'authentification sociale dans Django.
+This project demonstrates the implementation of Google authentication with Django Allauth. It serves as a testing environment to explore social authentication features in Django.
 
-## Fonctionnalités
+## Features
 
-- ✅ Authentification Google avec Django Allauth
-- ✅ Gestion des sessions et des comptes utilisateur
+- ✅ Google authentication with Django Allauth
+- ✅ Session and user account management
 
-## Structure du projet
+## Project Structure
 
-- `dashboard/` - Application principale avec la vue de profil utilisateur
-- `project/` - Configuration Django principale
-- `templates/` - Templates HTML pour l'interface utilisateur
+- `dashboard/` - Main application with user profile view
+- `project/` - Main Django configuration
+- `templates/` - HTML templates for the user interface
 
-## Authentification Google
+## Google Authentication
 
-Le projet utilise Django Allauth pour gérer l'authentification Google OAuth2, permettant aux utilisateurs de se connecter avec leur compte Google.
+This project uses Django Allauth to manage Google OAuth2 authentication, allowing users to log in with their Google account.
 
-## Authentification Github
+## GitHub Authentication
 
-Le projet utilise Django Allauth pour gérer l'authentification Github, permettant aux utilisateurs de se connecter avec leur compte Github.
+This project uses Django Allauth to manage GitHub authentication, allowing users to log in with their GitHub account.
