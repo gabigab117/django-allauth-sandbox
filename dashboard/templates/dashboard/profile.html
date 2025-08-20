@@ -1,3 +1,7 @@
-<h1>Connecté en tant que {{ request.user.email }}</h1>
+{% load socialaccount %}
+<h1>Salut ! Commment ça va {{ request.user.email }} ?</h1>
 
 <a href="{% url 'account_logout' %}">Déconnexion</a>
+<a href="{% url 'account_email' %}">Mes emails</a>
+
+<a href="{% provider_login_url 'google' %}">Se connecter avec Google</a>
